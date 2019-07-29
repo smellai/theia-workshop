@@ -14,19 +14,19 @@ For each exercise, there are 2 branches in the repository: one with an exercise 
 
 ### Getting started
 
-During the workshop, you will use Theia-based Online IDE for GitHub - Gitpod.
-To start with exercises you only need the modern browser. For the best experience, please use [Chrome](https://www.google.com/chrome/).
+During the workshop, you will use Theia-based Online IDE for GitHub - [Gitpod](https://gitpod.io/).
+To start with the exercises you only need a modern browser. For the best experience, please use [Chrome](https://www.google.com/chrome/).
 You can open any branch on GitHub by prefixing its URL with `gitpod.io#`.
 For example, to open Gitpod for the exercise 0:
-- go to exercise's branch - https://github.com/TypeFox/theia-workshop/tree/exercise-0
-- prefix it with `gitpod.io#` - gitpod.io#https://github.com/TypeFox/theia-workshop/tree/exercise-0
+- go to the exercise's branch - https://github.com/TypeFox/theia-workshop/tree/exercise-0
+- prefix it with `gitpod.io#` - [https://gitpod.io#https://github.com/TypeFox/theia-workshop/tree/exercise-0](https://gitpod.io/#https://github.com/TypeFox/theia-workshop/tree/exercise-0)
 
 ### Exercise 0: Build Theia Application
 
 In this exercise, you learn:
 - the structure of a Theia extension project;
-- how to create Theia application, build and run it;
-- how to configure Theia extension with the dependency injection.
+- how to create a Theia application, build and run it;
+- how to configure a Theia extension with dependency injection.
 
 ### Exercise 1: Implement JSON-Form Widget Open Handler
 
