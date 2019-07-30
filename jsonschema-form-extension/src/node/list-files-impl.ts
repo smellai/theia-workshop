@@ -10,7 +10,7 @@ export class ListFilesServiceImpl implements ListFilesService {
         const dir = new URI(uri).path.toString();
         let isDirExists = existsSync(dir) && lstatSync(dir).isDirectory();
 
-        console.log(`================${dir}`);
+        // console.log(`================${dir}`);
         return new Promise((resolve, reject) => {
             if (!isDirExists) {
                 return resolve(['this is not a directory']);

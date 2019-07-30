@@ -1,0 +1,10 @@
+.file-list {
+    list-style-type: none;
+    margin-left: 14px;
+    padding-left: 5px;
+}
+
+.file-item {
+    color: var(--theia-ui-font-color1);
+    margin-bottom: 5px;
+}

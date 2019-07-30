@@ -4,12 +4,11 @@ import { ReactWidget } from "@theia/core/lib/browser";
 
 export interface FileItem {
     name: string
-    index: number
 }
 
 export class FileListItem extends React.Component<FileItem> {
     render(): JSX.Element {
-        return <li className="file-item" key={this.props.index}>{this.props.name}</li>;
+        return <li className="file-item">{this.props.name}</li>;
     }
 }
 
@@ -35,7 +34,7 @@ export class ListFilesWidget extends ReactWidget {
     render(): React.ReactNode {
         return (<ul className="file-list">
             {this.files.list.map((file, index) => {
-                return <FileListItem index={index} name={file}/>;
+                return <FileListItem key={index} name={file}/>;
             })}
         </ul>);
     }
