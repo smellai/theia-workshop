@@ -14,15 +14,22 @@
     "react-dom": "^16.4.0"
   },
   "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
     "@types/react-dom": "^16.0.6",
+    "chai": "^4.2.0",
+    "ignore-styles": "^5.0.1",
+    "mocha": "^5.2.0",
     "rimraf": "latest",
+    "ts-node": "<7.0.0",
     "typescript": "latest"
   },
   "scripts": {
     "prepare": "yarn run clean && yarn run build",
     "clean": "rimraf lib",
     "build": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "test": "mocha --opts ./mocha.opts \"./src/**/*.spec.?(ts|tsx)\""
   },
   "theiaExtensions": [
     {
