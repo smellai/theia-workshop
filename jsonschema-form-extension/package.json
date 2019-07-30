@@ -26,7 +26,8 @@
   },
   "theiaExtensions": [
     {
-      "frontend": "lib/browser/jsonschema-form-frontend-module"
+      "frontend": "lib/browser/jsonschema-form-frontend-module",
+      "backend": "lib/node/jsonschema-form-backend-module"
     }
   ]
 }
